@@ -1,4 +1,4 @@
-package HomeWork.lesson2;
+package HomeWork.lesson1;
 
 public interface Players {
     void run(Track track);
