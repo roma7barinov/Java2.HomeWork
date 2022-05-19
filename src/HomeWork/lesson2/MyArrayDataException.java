@@ -7,6 +7,7 @@ public class MyArrayDataException extends RuntimeException{
 
 
     public MyArrayDataException(int i ,int j) {
+        super("Ошибка в ячейке : " + i + j );
         this.i = i;
         this.j = i;
     }
