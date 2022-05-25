@@ -5,7 +5,7 @@ public class Main {
 
 
         String[][] arrays = new String[][]{{"00","01","02","03"},//6
-                                           {"10","11","h","13"},//46
+                                           {"10","11","12","13"},//46
                                            {"20","21","22","23"},//86
                                            {"30","31","32","33"}};//126
 
@@ -19,8 +19,7 @@ public class Main {
                 System.out.println("Размер массива не верен");
             }
         } catch (MyArrayDataException e){
-            System.out.println("Неправильный формат элемента массива");
-            System.out.println("Ошибка в элименте с идексом " + e.i + e.j);//почему-то не работает обращение к нерабочиму элименту
+            e.printStackTrace();
         }
 
 
